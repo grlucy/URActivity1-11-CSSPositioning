@@ -1,0 +1,32 @@
+.content {
+    margin: 50px 30% 0 150px;
+}
+.relative {
+    position: relative;
+    background-color: #eee;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+}
+.absolute {
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    background-color: #999;
+    height: 200px;
+    width: 400px;
+    padding: 30px;
+}
+p {
+    line-height: 2;
+}
+.fixed {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 200px;
+    height: 150px;
+    background-color: #eee;
+    padding: 30px;
+    text-align: center;
+}
